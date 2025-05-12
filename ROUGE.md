@@ -90,8 +90,5 @@ Counts matched **word pairs in order** (not necessarily consecutive).
 
 ---
 
-## 📚 Further Reading
-
-- ROUGE Paper: [Lin, 2004](https://aclanthology.org/W04-1013)
 
 
