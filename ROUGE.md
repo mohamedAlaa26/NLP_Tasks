@@ -71,7 +71,6 @@ Counts matched **word pairs in order** (not necessarily consecutive).
 
 ### ✅ Pros
 - Simple and fast to compute
-- Strong correlation with human judgment
 - Language-agnostic
 
 ### ❌ Cons
