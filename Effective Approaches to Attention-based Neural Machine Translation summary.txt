@@ -1,0 +1,49 @@
+
+ ***Objective***
+To explore and compare two types of attention mechanisms in Neural Machine Translation (NMT):
+
+	1.Global attention – attends to all source words at every decoding step.
+
+	2.Local attention – attends to a small, selected window of source words.
+
+
+
+ ***Key Contributions****
+1.Two attention models proposed:
+
+	Global attention: simpler version of Bahdanau et al.'s attention.
+
+	Local attention: focuses on a subset of source positions, inspired by hard/soft attention in image captioning.
+
+2.Local attention has two variants:
+
+	Monotonic (local-m): assumes roughly aligned source/target positions.
+
+	Predictive (local-p): dynamically predicts the source position to attend to.
+
+3.Input-feeding approach: 
+	feeds the attention output of the previous step into the next, helping the model remember past alignments.
+
+
+
+ ***Analysis***
+Learning curves: Attention models converge better and faster.
+
+Long sentences: Attentional models handle them better; BLEU scores degrade less.
+
+Architecture choice:
+
+	Dot-product and general alignment functions outperform location-based and concat.
+
+	Local-p + general yields best BLEU and lowest perplexity.
+
+Alignment quality:
+
+	Attentional models learn reasonable word alignments.
+
+	Local attention models provide sharper, more accurate alignments than global.
+
+Sample translations: Attentional models better handle named entities and complex grammar.
+
+
+
