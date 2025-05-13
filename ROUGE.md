@@ -71,7 +71,6 @@ Counts matched **word pairs in order** (not necessarily consecutive).
 
 ### ✅ Pros
 - Simple and fast to compute
-- Strong correlation with human judgment
 - Language-agnostic
 
 ### ❌ Cons
@@ -91,8 +90,5 @@ Counts matched **word pairs in order** (not necessarily consecutive).
 
 ---
 
-## 📚 Further Reading
 
-- ROUGE Paper: [Lin, 2004](https://aclanthology.org/W04-1013)
-- Medium Tutorial: [2-Minute NLP - ROUGE Explained](https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499)
 
